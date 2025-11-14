@@ -32,6 +32,7 @@ function renderTasks() {
         };
 
         taskList.appendChild(emptyMsg);
+        updateCount();
         return;
     }
 
